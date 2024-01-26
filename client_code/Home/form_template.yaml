@@ -20,29 +20,29 @@ components:
   layout_properties: {grid_position: 'OEYLMM,LPIWNK', full_width_row: true}
   components:
   - type: Spacer
-    properties: {visible: true, spacing_above: small, spacing_below: small, height: '150',
+    properties: {visible: true, spacing_above: small, spacing_below: small, height: '15',
       tooltip: ''}
     name: spacer_1
     layout_properties: {grid_position: 'JEIDEP,DBLSIN'}
+  - type: Label
+    properties: {role: logo, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: ChloroFeel, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_1
+    layout_properties: {grid_position: 'OUDFPR,BAKQUQ'}
   - type: ColumnPanel
     properties: {role: transparent-box, col_widths: '{}'}
     name: transparent_box_1
     layout_properties: {grid_position: 'LPHSOH,QWGJAR'}
     components:
-    - type: Label
-      properties: {role: logo, align: center, tooltip: '', border: '', foreground: '',
-        visible: true, text: Cupcakes & Co., font_size: null, font: '', spacing_above: small,
-        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
-        underline: false, icon: ''}
-      name: label_1
-      layout_properties: {grid_position: 'VLVWNW,HPLIVM'}
     - type: Spacer
       properties: {height: 19}
       name: spacer_2
       layout_properties: {grid_position: 'RSRZWR,HLARQT'}
     - type: Button
       properties: {role: secondary-color, align: center, tooltip: '', border: '',
-        enabled: true, foreground: '', visible: true, text: SHOP NOW, font_size: 16,
+        enabled: true, foreground: '', visible: false, text: SHOP NOW, font_size: 16,
         font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
         background: '', bold: false, underline: false, icon: ''}
       name: shop_button
