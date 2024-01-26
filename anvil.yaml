@@ -13,7 +13,7 @@ services:
 startup: {type: form, module: Main}
 package_name: Shop_Template
 allow_embedding: false
-name: Clone of Shop Template
+name: chloroFeel
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
 startup_form: null
