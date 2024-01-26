@@ -238,7 +238,7 @@ components:
     event_bindings: {click: cart_link_click}
 - type: Label
   properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
-    visible: true, text: Cupcakes & Co., font_size: 24, font: Yeseva One, spacing_above: small,
+    visible: true, text: ChloroFeel, font_size: 24, font: Yeseva One, spacing_above: small,
     icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
     underline: false, icon: ''}
   name: label_1
