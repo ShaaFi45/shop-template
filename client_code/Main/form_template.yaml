@@ -227,8 +227,8 @@ components:
     layout_properties: {}
     event_bindings: {click: cart_link_click}
 - type: Label
-  properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
-    visible: true, text: ChloroFeel, font_size: 24, font: Yeseva One, spacing_above: small,
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: _/theme/eco-port-logo.png,
+    visible: true, text: Eco Port, font_size: 24, font: Yeseva One, spacing_above: small,
     icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
     underline: false, icon: ''}
   name: label_1
