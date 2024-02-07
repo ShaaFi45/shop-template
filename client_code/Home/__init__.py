@@ -19,7 +19,7 @@ class Home(HomeTemplate):
     self.banner.role = ['spaced-title', 'left-right-padding']
     
     for p in best_sellers:
-      self.flow_panel_1.add_component(Product(item=p), width='30%')
+      self.flow_panel_1.add_component(Product(item=p), width='20%')
 
 
   def shop_button_click(self, **event_args):
